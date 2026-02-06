@@ -9,6 +9,8 @@ func main() {
 }
 
 func firstword(str string) string {
+	//this will ensure that leading spaces are well taken care of
+	// the iteration will occur until the character is not a space.
 	i := 0
 	for i < len(str) && str[i] == ' ' {
 		i++
