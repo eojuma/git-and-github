@@ -15,7 +15,7 @@ func firstword(str string) string {
 	for i < len(str) && str[i] == ' ' {
 		i++
 	}
-
+//  at this point we now tell the iterator that we are beginnig to encounter character which are not spaces
 	start := i
 
 	for i < len(str) && str[i] != ' ' {
