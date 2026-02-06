@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	fmt.Println(firstword("         Juma is likes playing video games"))
+	fmt.Println(firstword("         Juma is likes playing video games"))
+	fmt.Println(firstword("  hello!       Juma is likes playing video games"))
 }
 
 func firstword(str string) string {
