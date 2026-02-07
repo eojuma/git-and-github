@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(firstword("         Juma is likes playing video games"))
 	fmt.Println(firstword("  hello!       Juma is likes playing video games"))
 }
-
+// this function finds the fast word of any sring passed to it
 func firstword(str string) string {
 	// this will ensure that leading spaces are well taken care of
 	// the iteration will occur until the character is not a space.
