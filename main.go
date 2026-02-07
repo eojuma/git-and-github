@@ -21,5 +21,7 @@ func firstword(str string) string {
 	for i < len(str) && str[i] != ' ' {
 		i++
 	}
+
+	// this will printcharacters immediately after  the last space character to the last character before the next closest space character
 	return str[start:i]
 }
