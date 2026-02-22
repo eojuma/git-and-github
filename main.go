@@ -27,3 +27,4 @@ func firstword(str string) string {
 
 	return str[start:i]
 }
+// tihs was made simpler
