@@ -22,7 +22,9 @@ func firstword(str string) string {
 		i++
 	}
 
-	//and this will print characters immediately after  the last space character to the last character before the next closest space character
+
+	// it will print characters immediately after  the last space character to the last character before the next closest space character
+
 
 
 	return str[start:i]
