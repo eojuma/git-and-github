@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(firstword("         Juma is likes playing video games"))
-	fmt.Println(firstword("         Juma is likes playing video games"))
-	fmt.Println(firstword("  hello!       Juma is likes playing video games"))
+	fmt.Println(firstword("         Juma likes playing video games"))
+	fmt.Println(firstword("         Juma  likes playing video games"))
+	fmt.Println(firstword("  hello!       Juma  likes playing video games"))
 }
 // this function finds the fast word of any sring passed to it
 func firstword(str string) string {
